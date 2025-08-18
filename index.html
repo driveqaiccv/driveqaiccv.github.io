@@ -241,7 +241,11 @@
 <!-- Statistics Section -->
 <section class="section is-light">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Dataset Statistics</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Dataset Statistics</h2>
+      </div>
+    </div>
     
     <div class="columns is-centered">
       <!-- left image -->
@@ -278,37 +282,53 @@
 <!-- Main Results -->
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Main Results</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Main Results</h2>
+      </div>
+    </div>
 
     <!-- full width image -->
-    <div class="hero-body">
-      <figure>
-        <img src="static/images/results_t_chart.png" 
-             alt="Text QA Results Chart"
-             style="width: 100%;">
-      </figure>
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content has-text-centered">
+          <figure>
+            <img src="static/images/results_t_chart.png" 
+                 alt="Text QA Results Chart"
+                 style="width: 100%;">
+          </figure>
+        </div>
+      </div>
     </div>
     
-    <div class="hero-body">
-      <figure>
-        <img src="static/images/results_t.png" 
-             alt="Text QA Results"
-             style="width: 60%;">
-        <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
-          Challenging Categories on DriveQA-T. We show the results of most difficult 3 types: Limits: Speed and Distance Limits, Parking: Parking and Wheel Positioning, Intersection: Right-of-Way and Lane Selection. The Average is the summary based on all 19 types of questions. We denote with green the top method, and light green second best.
-        </figcaption>
-      </figure>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-centered">
+          <figure>
+            <img src="static/images/results_t.png" 
+                 alt="Text QA Results"
+                 style="width: 100%;">
+            <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
+              Challenging Categories on DriveQA-T. We show the results of most difficult 3 types: Limits: Speed and Distance Limits, Parking: Parking and Wheel Positioning, Intersection: Right-of-Way and Lane Selection. The Average is the summary based on all 19 types of questions. We denote with green the top method, and light green second best.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
 
-    <div class="hero-body">
-      <figure>
-        <img src="static/images/results_v.png" 
-             alt="Image QA Results"
-             style="width: 100%;">
-        <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
-          Summarized Results on DriveQA-V. We show model performance (accuracy %) for VQA. The dataset is divided into two main categories: intersections and signs (categorized into camera perspective and type).
-        </figcaption>
-      </figure>
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content has-text-centered">
+          <figure>
+            <img src="static/images/results_v.png" 
+                 alt="Image QA Results"
+                 style="width: 100%;">
+            <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
+              Summarized Results on DriveQA-V. We show model performance (accuracy %) for VQA. The dataset is divided into two main categories: intersections and signs (categorized into camera perspective and type).
+            </figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
 
   </div>
