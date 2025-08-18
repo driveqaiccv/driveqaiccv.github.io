@@ -339,45 +339,59 @@
 <!-- Sim-to-Real Transferability -->
 <section class="section is-light">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Sim-to-Real Transferability and Downstream Task Performance</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Sim-to-Real Transferability and Downstream Task Performance</h2>
+      </div>
+    </div>
 
     <!-- full width image -->
-    <div class="hero-body">
-      <figure>
-        <img src="static/images/down_figure1.png" 
-             alt="Sim-to-Real Generalization"
-             style="width: 50%;">
-        <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
-          Sim-to-Real Generalization. We pre-train on synthetic DriveQA (DQA) and evaluate on real-world Mapillary images. The Mapillary dataset comprises challenging scenarios with various traffic sign placements, occlusion, and illumination.
-        </figcaption>
-      </figure>
-    </div>
-    
-    <div class="hero-body">
-      <figure>
-        <img src="static/images/down_figure2.png" 
-             alt="End-to-End Trajectory Planning Results on nuScenes"
-             style="width: 50%;">
-        <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
-          End-to-End Trajectory Planning Results on nuScenes. We compute the L2 error at different prediction horizons (1s, 2s, and 3s). Lower L2 error shows our DriveQA (DQA) dataset can transfer from simulation to real-world driving tasks.
-        </figcaption>
-      </figure>
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <div class="content has-text-centered">
+          <figure>
+            <img src="static/images/down_figure1.png" 
+                 alt="Sim-to-Real Generalization"
+                 style="width: 100%;">
+            <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
+              Sim-to-Real Generalization. We pre-train on synthetic DriveQA (DQA) and evaluate on real-world Mapillary images. The Mapillary dataset comprises challenging scenarios with various traffic sign placements, occlusion, and illumination.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      
+      <div class="column is-half">
+        <div class="content has-text-centered">
+          <figure>
+            <img src="static/images/down_figure2.png" 
+                 alt="End-to-End Trajectory Planning Results on nuScenes"
+                 style="width: 100%;">
+            <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
+              End-to-End Trajectory Planning Results on nuScenes. We compute the L2 error at different prediction horizons (1s, 2s, and 3s). Lower L2 error shows our DriveQA (DQA) dataset can transfer from simulation to real-world driving tasks.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
 
-    <div class="hero-body">
-      <figure>
-        <img src="static/images/down_figure3.png" 
-             alt="Evaluation on BDD-OIA Dataset"
-             style="width: 50%;">
-        <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
-          Evaluation on BDD-OIA Dataset. We report mean F1 score (mF1) and overall F1 score (F1 all) for both action and explanation tasks. The results show that fine-tuning on DriveQA improves performance on both tasks.
-        </figcaption>
-      </figure>
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <div class="content has-text-centered">
+          <figure>
+            <img src="static/images/down_figure3.png" 
+                 alt="Evaluation on BDD-OIA Dataset"
+                 style="width: 100%;">
+            <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
+              Evaluation on BDD-OIA Dataset. We report mean F1 score (mF1) and overall F1 score (F1 all) for both action and explanation tasks. The results show that fine-tuning on DriveQA improves performance on both tasks.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
 
   </div>
 </section>
-<!-- End main results -->
+<!-- End transferability section -->
 
 
 <!-- Youtube video -->
