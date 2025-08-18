@@ -2,30 +2,30 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Meta tags for social media banners, these should be filled in appropriately as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <meta name="description" content="DriveQA: A comprehensive multimodal benchmark to evaluate and enhance LLMs' ability to pass driving knowledge tests, covering traffic rules, signs, and right-of-way scenarios.">
+  <meta property="og:title" content="DriveQA: Passing the Driving Knowledge Test | ICCV 2025"/>
+  <meta property="og:description" content="Can LLMs pass a driving test? We introduce DriveQA, a 474K sample benchmark evaluating MLLMs on traffic rules and visual reasoning for autonomous driving."/>
+  <meta property="og:url" content="https://driveqaiccv.github.io/DriveQA/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X630-->
+  <meta property="og:image" content="static/images/driveqa_banner.png" />
+  <meta property="og:image:width" content="1770"/>
+  <meta property="og:image:height" content="1114"/>
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:title" content="DriveQA: Passing the Driving Knowledge Test | ICCV 2025">
+  <meta name="twitter:description" content="DriveQA: A comprehensive multimodal benchmark to evaluate if LLMs can pass driving knowledge tests, covering traffic rules, signs, and right-of-way scenarios.">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X600-->
+  <meta name="twitter:image" content="static/images/driveqa_banner.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="ICCV 2025, Computer Vision, Autonomous Driving, Large Language Models, Vision-Language Models, VLMs, MLLMs, DriveQA, Driving Knowledge Test, Traffic Rules, Right-of-Way, Traffic Signs">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>DriveQA: Passing the Driving Knowledge Test</title>
+  <link rel="icon" type="image/x-icon" href="static/images/driver-license.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -52,21 +52,27 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">DriveQA: Passing the Driving Knowledge Test</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Maolin Wei</a><sup>1*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://wanzhouliu.github.io/" target="_blank">Wanzhou Liu</a><sup>2*</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                    <a href="https://eshed1.github.io/" target="_blank">Eshed Ohn-Bar</a><sup>1</sup>,</span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Boston University<sup>1</sup></span>
+                    <span class="author-block">Washington University in St. Louis<sup>2</sup></span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">ICCV 2025</span>
+                  </div>
+                  <div class="is-size-6 publication-authors">
+                    <span class="eql-cntrb"><small><sup>*</sup>Equal Contribution</small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -124,21 +130,24 @@
 
 
 <!-- Teaser video-->
+<!-- End teaser video -->
+
+
+<!-- Teaser Image -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
+      <div class="content">
+        <img src="static/images/driveqa_main.png" alt="DriveQA Teaser" width="100%">
+      </div>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        <b>DriveQA</b>: A comprehensive multimodal benchmark that not only evaluates but also improves LLMs' performance on driving knowledge tests through 474K QA pairs covering traffic rules, signs, and right-of-way scenarios.
       </h2>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+<!-- End teaser image -->
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -148,7 +157,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            If a Large Language Model (LLM) were to take a driving knowledge test today, would it pass? Beyond standard spatial and visual question-answering (QA) tasks on current autonomous driving benchmarks, driving knowledge tests require a complete understanding of all traffic rules, signage, and right-of-way principles. To pass this test, human drivers must discern various edge cases that rarely appear in real-world datasets. In this work, we present DriveQA, an extensive open-source text and vision-based benchmark that exhaustively covers traffic regulations and scenarios. Through our experiments using DriveQA, we show that (1) state-of-the-art LLMs and Multimodal LLMs (MLLMs) perform well on basic traffic rules but exhibit significant weaknesses in numerical reasoning and complex right-of-way scenarios, traffic sign variations, and spatial layouts, (2) fine-tuning on DriveQA improves accuracy across multiple categories, particularly in regulatory sign recognition and intersection decision-making, (3) controlled variations in DriveQA-V provide insights into model sensitivity to environmental factors such as lighting, perspective, distance, and weather conditions, and (4) pretraining on DriveQA enhances downstream driving task performance, leading to improved results on real-world datasets such as nuScenes and BDD, while also demonstrating that models can internalize text and synthetic traffic knowledge to generalize effectively across downstream QA tasks.
           </p>
         </div>
       </div>
@@ -158,119 +167,190 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+<!-- Key features -->
+<div class="columns is-centered">
+  <div class="column is-one-third">
+    <div class="content has-text-centered">
+      <h3>📊 Large-Scale Benchmark</h3>
+      <p><b>474K QA pairs</b><br>
+      26K text-based questions<br>
+      448K vision-based tasks<br>
+      220 traffic signs coverage</p>
+    </div>
+  </div>
+  <div class="column is-one-third">
+    <div class="content has-text-centered">
+      <h3>🔍 Comprehensive Evaluation</h3>
+      <p>19 question categories<br>
+      Controlled variations<br>
+      Explanations included<br>
+      Real + synthetic data</p>
+    </div>
+  </div>
+  <div class="column is-one-third">
+    <div class="content has-text-centered">
+      <h3>🚗 Real-World Transfer</h3>
+      <p>Improved nuScenes performance<br>
+      Better BDD-OIA results<br>
+      Sim-to-real generalization<br>
+      Downstream task gains</p>
     </div>
   </div>
 </div>
-</div>
-</section>
-<!-- End image carousel -->
+<!-- End key features -->
 
 
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+<!-- Related Work Section -->
+<section class="section">
+  <div class="container is-max-desktop">    
+    <!-- image container -->
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <!-- image -->
+          <figure>
+            <img src="static/images/table1_comparison.png" 
+                 alt="DriveQA Related Work"
+                 width="100%">
+          </figure>
         </div>
       </div>
     </div>
   </div>
 </section>
+<!-- End related work section -->
+
+<!-- Statistics Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Dataset Statistics</h2>
+    
+    <div class="columns is-centered">
+      <!-- left image -->
+      <div class="column is-half">
+        <div class="content">
+          <figure>
+            <img src="static/images/driveqa_t.png" 
+                 alt="DriveQA-T">
+            <figcaption class="has-text-centered">
+              Distribution of Question Type in <b>DriveQA-T</b>. The benchmark covers five key domains and 19 sub-class types.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      
+      <!-- right image -->
+      <div class="column is-half">
+        <div class="content">
+          <figure>
+            <img src="static/images/driveqa_cloud.png" 
+                 alt="DriveQA-WordCloud">
+            <figcaption class="has-text-centered">
+              Word Cloud of Questions in DriveQA. The figure statistically summarizes the language terms in the introduced DriveQA benchmark.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End statistics section -->
+
+
+<!-- Main Results -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Main Results</h2>
+
+    <!-- full width image -->
+    <div class="hero-body">
+      <figure>
+        <img src="static/images/results_t_chart.png" 
+             alt="Text QA Results Chart"
+             style="width: 100%;">
+      </figure>
+    </div>
+    
+    <div class="hero-body">
+      <figure>
+        <img src="static/images/results_t.png" 
+             alt="Text QA Results"
+             style="width: 100%;">
+        <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
+          Challenging Categories on DriveQA-T. We show the results of most difficult 3 types: Limits: Speed and Distance Limits, Parking: Parking and Wheel Positioning, Intersection: Right-of-Way and Lane Selection. The Average is the summary based on all 19 types of questions. We denote with green the top method, and light green second best.
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="hero-body">
+      <figure>
+        <img src="static/images/results_v.png" 
+             alt="Image QA Results"
+             style="width: 100%;">
+        <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
+          Summarized Results on DriveQA-V. We show model performance (accuracy %) for VQA. The dataset is divided into two main categories: intersections and signs (categorized into camera perspective and type).
+        </figcaption>
+      </figure>
+    </div>
+
+  </div>
+</section>
+<!-- End main results -->
+
+
+<!-- Sim-to-Real Transferability -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Sim-to-Real Transferability and Downstream Task Performance</h2>
+
+    <!-- full width image -->
+    <div class="hero-body">
+      <figure>
+        <img src="static/images/down_figure1.png" 
+             alt="Sim-to-Real Generalization"
+             style="width: 100%;">
+        <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
+          Sim-to-Real Generalization. We pre-train on synthetic DriveQA (DQA) and evaluate on real-world Mapillary images. The Mapillary dataset comprises challenging scenarios with various traffic sign placements, occlusion, and illumination.
+        </figcaption>
+      </figure>
+    </div>
+    
+    <div class="hero-body">
+      <figure>
+        <img src="static/images/down_figure2.png" 
+             alt="End-to-End Trajectory Planning Results on nuScenes"
+             style="width: 100%;">
+        <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
+          End-to-End Trajectory Planning Results on nuScenes. We compute the L2 error at different prediction horizons (1s, 2s, and 3s). Lower L2 error shows our DriveQA (DQA) dataset can transfer from simulation to real-world driving tasks.
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="hero-body">
+      <figure>
+        <img src="static/images/down_figure3.png" 
+             alt="Evaluation on BDD-OIA Dataset"
+             style="width: 100%;">
+        <figcaption class="has-text-centered" style="margin-top: 15px; font-size: 0.95em;">
+          Evaluation on BDD-OIA Dataset. We report mean F1 score (mF1) and overall F1 score (F1 all) for both action and explanation tasks. The results show that fine-tuning on DriveQA improves performance on both tasks.
+        </figcaption>
+      </figure>
+    </div>
+
+  </div>
+</section>
+<!-- End main results -->
+
+
+<!-- Youtube video -->
 <!-- End youtube video -->
 
 
 <!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 <!-- End video carousel -->
 
 
-
-
-
-
 <!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
 <!--End paper poster -->
 
 
@@ -278,7 +358,12 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@inproceedings{wei2025driveqa,
+        title={Passing the Driving Knowledge Test},
+        author={Wei, Maolin and Liu, Wanzhou and Ohn-Bar, Eshed},
+        booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+        year={2025}
+      }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
